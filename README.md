@@ -2,8 +2,6 @@
 
 This repository contains a **Power BI analytics case study** focused on visitor behavior, revenue performance, exhibitions, and digital audience growth of the **Louvre Museum**.
 
-The project was designed as a **management-level BI solution**, not a training dashboard, with an emphasis on data modeling, analytical logic, and usability.
-
 ---
 
 ## Project Overview
@@ -45,8 +43,9 @@ louvre-powerbi-analytics/
 
 ### 1️⃣ Overview
 
-High-level KPIs and long-term trends:
+The Overview page provides a high-level snapshot of museum performance, combining key KPIs with trend-based visual analysis.
 
+#### Key KPIs
 - Total Visits  
 - Exhibition Attendance  
 - Visitor Satisfaction (%)  
@@ -56,17 +55,47 @@ High-level KPIs and long-term trends:
 - School Visits  
 - Free Admission Share (%)  
 
+#### Key Visuals and Insights
+
+- **Visitors vs Ticket Revenue Over Time**  
+  A combined trend analysis showing how visitor numbers and ticket revenue evolve together across years.  
+  This visualization helps assess whether revenue growth is driven by attendance, pricing effects, or a combination of both.
+
+- **Youth Share vs Free Admission (%)**  
+  A comparative trend highlighting the relationship between the share of young visitors and the proportion of free admissions.  
+  This chart supports analysis of accessibility policies and their impact on audience structure.
+
+- **Visitor Origin by Country (%)**  
+  A geographic distribution of visitors by country, allowing quick identification of key source markets and changes in international audience composition.
+
+- **School Visits vs Youth Audience Trend**  
+  A trend comparison between organized school visits and the overall youth audience, helping evaluate the role of educational programs in shaping long-term visitor demographics.
+
+Together, these visuals allow decision-makers to quickly identify structural shifts, performance drivers, and potential areas for strategic action.
+
 ![`images/overview.png`](images/overview.png)
 
 ---
 
 ### 2️⃣ Social Media
 
-Digital audience and website traffic analysis:
+The Social Media page focuses on the museum’s digital presence and its evolution over time, providing insights into audience growth and online engagement.
 
-- Platform growth comparison  
-- Year-over-year trends  
-- Website traffic dynamics  
+#### Key Metrics
+- Social media audience size by platform
+- Website traffic (annual)
+
+#### Key Visuals and Insights
+
+- **Social Media Audience Growth by Platform**  
+  A multi-year comparison of audience growth across major platforms (Facebook, Instagram, LinkedIn, Twitter/X, YouTube, Weibo. WeChat).  
+  This visualization highlights differences in growth dynamics and helps identify which platforms contribute most to digital reach.
+
+- **Website Traffic Over Time**  
+  An annual trend of website visits, showing how online interest in the museum evolves over time.  
+  This chart supports analysis of how digital engagement aligns with on-site attendance and major exhibitions.
+
+Together, these visuals help assess the effectiveness of digital communication channels and their role in supporting audience development.
 
 ![`images/social_media.png`](images/social_media.png)
 
@@ -74,12 +103,29 @@ Digital audience and website traffic analysis:
 
 ### 3️⃣ Exhibitions
 
-Exhibition performance analytics:
+The Exhibitions page provides a detailed performance analysis of temporary exhibitions, combining attendance metrics with structural characteristics.
 
-- Exhibition attendance (selected year)  
-- Total number of exhibitions  
-- Artworks and artworks from the Louvre collection  
-- Top exhibitions by attendance and historical performance
+#### Key Metrics
+- Exhibition Attendance (selected year)
+- Total Number of Exhibitions
+- Total Artworks
+- Artworks from the Louvre Collection
+
+#### Key Visuals and Insights
+
+- **Top Exhibitions by Attendance (Selected Year)**  
+  A ranking of the most visited exhibitions within the selected year, supporting evaluation of short-term exhibition performance.
+
+- **Top Exhibitions by Total Attendance (All Years)**  
+  A historical ranking based on cumulative attendance, highlighting exhibitions with long-term impact and sustained popularity.
+
+- **Exhibition Structure Indicators**  
+  Metrics such as number of artworks and exhibition duration provide additional context for attendance figures, enabling comparisons beyond raw visitor counts.
+
+- **Multi-Year Exhibition Logic**  
+  Exhibitions spanning multiple years are handled using consistent attribution rules to ensure accurate annual and historical comparisons.
+
+This page supports strategic decisions related to exhibition planning, resource allocation, and long-term programming.
   
 ![`images/exhibitions.png`](images/exhibitions.png)
 
@@ -102,5 +148,3 @@ This dashboard supports management-level questions such as:
 - DAX (custom measures)  
 - Data modeling and transformation  
 - UX-oriented dashboard design  
-
-
