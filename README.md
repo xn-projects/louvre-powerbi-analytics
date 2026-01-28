@@ -56,7 +56,7 @@ High-level KPIs and long-term trends:
 - School Visits  
 - Free Admission Share (%)  
 
-[`images/overview.png`](images/overview.png)
+[`images/overview.png`]
 
 ---
 
@@ -68,7 +68,7 @@ Digital audience and website traffic analysis:
 - Year-over-year trends  
 - Website traffic dynamics  
 
-[`images/social_media.png`](images/social_media.png)
+[`images/social_media.png`]
 
 ---
 
@@ -81,7 +81,7 @@ Exhibition performance analytics:
 - Artworks and artworks from the Louvre collection  
 - Top exhibitions by attendance and historical performance
   
-[`images/exhibitions.png`](images/exhibitions.png)
+[`images/exhibitions.png`]
 
 ---
 
@@ -102,3 +102,4 @@ This dashboard supports management-level questions such as:
 - DAX (custom measures)  
 - Data modeling and transformation  
 - UX-oriented dashboard design  
+
